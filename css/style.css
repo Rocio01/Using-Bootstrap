@@ -99,3 +99,13 @@ video {
 div {
   border: 1px solid blue;
 }
+
+.my-turn {
+  width: 100%;
+  padding: 0;
+}
+
+.turn-text {
+  padding: 2% 0;
+
+}
