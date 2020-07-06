@@ -99,3 +99,15 @@ video {
 div {
   border: 1px solid blue;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  position: fixed;
+  background-color: red;
+}
+
+.rightOptions{
+  align-items: right;
+}
