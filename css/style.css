@@ -125,9 +125,14 @@ div {
   min-height: 28px;
 }
 
+.magazine-title {
+  margin-left: 0.5em;
+}
+
 /* fix this */
 .container {
   padding: 0;
   margin-left: 2%;
   min-width: 95%;
 }
+
