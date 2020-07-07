@@ -257,7 +257,7 @@ body a {
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 11px;
-  color: #03030366;
+  color: #f72210;
 }
 
 
@@ -365,6 +365,90 @@ body a {
 .opinion .by {
   font-size: 14px;
   color: #555;
+}
+
+/* subscription styling */
+
+.container .subscription {
+  max-width: 1310px;
+}
+
+.subscription .signup-img {
+  object-fit: cover;
+}
+
+.subscription .bg-light {
+  background-color: #f4f5f6 !important;
+}
+
+.subscription .p-30 {
+  padding: 20px;
+}
+
+.subscription .buttons {
+  padding: 6px 10px;
+  color: white;
+  background-color: #f72210;
+  font-size: 18px;
+}
+
+.subscription .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.position-relative {
+  position: relative!important;
+}
+
+.mag-img .img1 {
+  left: 55px;
+}
+
+.mag-img .img2 {
+  top: 13px;
+  right: 55px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.text-center .free-signup input {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+}
+
+.free-signup .form-text {
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica",sans-serf;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+}
+
+.text-center .free-signup .form-submit {
+  margin-top: 11px;
+}
+
+.free-signup .form-submit {
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0;
+  font-family: "Roboto Condensed",sans-serif;
+  background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
+  border-radius: 3px;
+  border: 0 none;
+}
+
+form .form-submit {
+  cursor: pointer;
+  text-align: center;
 }
 
 /* Small Screen style */
