@@ -1,33 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Newsweek|The Bootstrap Project</title>
+  <title>PPandey Newsweek|The Bootstrap Project</title>
   <link rel="stylesheet" href="css/style.css" type="text/css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="weatherReport">
-        <h5>Weather 99, somewhere</h5>
-        <br>
-        <h5>Monday July 06, 2020</h5>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ <div class="container">
+
+  <header class="header">
+
+      <div class="row justify-content-between topNavbar">
+        <span class="d-none d-lg-inline align-self-end date">Tue, July 07, 2020</span>
+        <a class="logoLink" href="#">
+          <img class="logo" src="img/logo.svg" alt="logo">
+        </a>
+        <span class="align-self-lg-end text-uppercase buttons">
+          <a href="#" class="text-decoration-none sign-in">sign in</a>
+          <a href="#" class="text-decoration-none subscribe">subscribe <i class="fas fa-chevron-right"></i></a>
+          <a href="#" class="d-lg-none menu-icon"><i class="fas fa-bars"></i></a>
+        </span>
       </div>
 
-      <div class="logoText">
-        <h1>Newsweek</h1>
+      <nav class="d-none d-lg-block navbar navbar-expand p-0 mx-neg-15">
+        <ul class="navbar-nav w-100 justify-content-between bg-white text-center">
+          <li class="nav-item border-0">
+            <a class="nav-link" href="#">U.S.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">World</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tech & Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Newsgeek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Health</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">The Debate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vantage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Weather</a>
+          </li>
+          <li class="nav-item border-0 search">
+            <a class="nav-link" href="#">Search &nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000" d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z"></path></svg></a>
+          </li>
+        </ul>
+      </nav>
+
+
+  </header>
+
+  <main class="bg-white mt-5 mt-lg-0 mx-neg-15 main-container border-bottom">
+
+    <section class="row top-articles">
+
+      <div class="col-12 col-md-6 col-lg-6 order-md-2 pr-4 mt-sm-3 mt-md-0">
+        <div class="d-flex flex-column top-stories-container">
+          <h1 class="column-title">Top Story</h1>
+          <article class="card order-1 border-0 mb-2 featured-article">
+            <div class="img">
+              <img class="card-img-top" src="https://d.newsweek.com/en/full/1606961/paycheck-protection-program.jpg?w=591&h=364&l=48&t=68&f=2eed061dd7c92024339a91712eb8beec" alt="">
+              <span class="category">u.s.</span>
+            </div>              
+            <div class="card-body px-0">
+              <h2 class="card-title article-heading">
+                <a href="#">More Than 6 Companies With Ties to Congress Took Millions in Stimulus Loans</a>
+              </h2>
+              <p class="summary card-text">The forgivable loans from the Paycheck Protection Program went to companies associated with—directly and indirectly—at least six Republican lawmakers and two congressional groups associated with Democratic lawmakers.</p>
+            </div>
+          </article>           
+          
+        
+        </div>
       </div>
-      <div class="rightOptions">
-        <h5>Login</h5>
-        <button class="subscribe">subscribe</button>
-      </div>
-    </header>
 
-    <nav class=""></nav>
 
-    <article></article>
-
-    <footer></footer>
+    </section>
     
-  </body>
+
+    <section class="magazine">
+
+      <div class="row">
+        <aside class="col-12 col-md-3 mt-4">
+          <article class="card border-0 mb-2 featured-article">
+            <div class="img">
+              <img class="card-img-top" src="https://d.newsweek.com/en/full/1605463/us-cover-july-10-17.jpg?w=360&h=480&q=90&f=154485e41c59bb0141bca89d4b47d0fd" alt="">
+              <span class="category">July 17 ISSUE</span>
+            </div>              
+            <div class="card-body p-0">
+              <a href="#" class="see-all text-uppercase d-block font-weight-bold w-100">See All Features <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </article>            
+        </aside>
+       
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+ 
+
+  <article></article>
+
+  <footer></footer>
+
+</div> 
+</body>
+
 </html>
