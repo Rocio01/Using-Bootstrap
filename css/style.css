@@ -227,6 +227,11 @@ body a {
   max-height: 28px;
 }
 
+.main-container .logo-n {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  fill: white;
 .magazine-title {
   margin-left: 0.5em;
 }
@@ -234,8 +239,8 @@ body a {
 /* fix this */
 .container {
   padding: 0;
-  margin-left: 2%;
-  min-width: 95%;
+  margin-left: 0;
+  min-width: 100%;
 }
 
 
@@ -335,6 +340,29 @@ body a {
 .magazine img {
   object-fit: cover;
   width: 100%;
+}
+
+
+
+
+/*Section Styling*/
+
+.section-picks .heading {
+  color: #f72210;
+  font-size: 22px;
+}
+
+.opinion .opinion-title {
+  font-size: 17px;
+}
+
+.top-articles .opinion-title a:hover {
+  color: #f72210;
+}
+
+.opinion .by {
+  font-size: 14px;
+  color: #555;
 }
 
 /* Small Screen style */
