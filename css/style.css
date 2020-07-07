@@ -400,14 +400,36 @@ body a {
 }
 
 .politics {
-  border: 1px solid red;
-  padding: 0;
+  color: red;
+  padding: 7px 5px;
   position: absolute;
-  margin-top: 60%;
+  margin-top: 56%;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+}
+.politics:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+.card-body a:hover {
+  color: #000;
+  text-decoration: underline red;
 }
 
+
+h6 {
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+.health {
+  margin-top: 60%;
+}
 .ingood {
-  margin-top: 125%;
+  margin-top: 120%;
 }
 
 .card-title {
@@ -425,6 +447,10 @@ body a {
   background-color: #f72210;
   color: white;
   padding: 5px;
+}
+.img-round {
+  width: 80px;
+  height: 80px;
 }
 
 .two-c-magazine {
