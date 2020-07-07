@@ -100,12 +100,15 @@ div {
   border: 1px solid blue;
 }
 
-.my-turn {
-  width: 100%;
-  padding: 0;
+
+
+.img-stories {
+  min-width: 100%;
+  padding: 5px;
 }
 
-.turn-text {
-  padding: 2% 0;
-
+.container {
+  padding: 0;
+  margin: 0;
+  min-width: 97%;
 }
