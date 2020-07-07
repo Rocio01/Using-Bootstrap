@@ -340,6 +340,29 @@ body a {
   width: 100%;
 }
 
+
+
+
+/*Section Styling*/
+
+.section-picks .heading {
+  color: #f72210;
+  font-size: 22px;
+}
+
+.opinion .opinion-title {
+  font-size: 17px;
+}
+
+.top-articles .opinion-title a:hover {
+  color: #f72210;
+}
+
+.opinion .by {
+  font-size: 14px;
+  color: #555;
+}
+
 /* Small Screen style */
 
 @media screen and (max-width: 991px) {
