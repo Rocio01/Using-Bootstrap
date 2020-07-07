@@ -227,6 +227,13 @@ body a {
   min-height: 28px;
 }
 
+.main-container .logo-n {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  fill: white;
+}
+
 /* fix this */
 .container {
   padding: 0;
