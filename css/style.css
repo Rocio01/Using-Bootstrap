@@ -213,14 +213,25 @@ body a {
 .rightOptions{
   align-items: right;
 }
-.my-turn {
-  width: 100%;
-  padding: 0;
+
+
+
+.img-stories {
+  padding: 5px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
-.turn-text {
-  padding: 2% 0;
+.n-logo {
+  min-width: 28px;
+  min-height: 28px;
+}
 
+/* fix this */
+.container {
+  padding: 0;
+  margin-left: 2%;
+  min-width: 95%;
 }
 
 
