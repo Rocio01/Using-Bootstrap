@@ -232,6 +232,8 @@ body a {
   height: 30px;
   background-color: red;
   fill: white;
+.magazine-title {
+  margin-left: 0.5em;
 }
 
 /* fix this */
@@ -394,3 +396,4 @@ body a {
     padding: 20px;
   }
 }
+
