@@ -237,8 +237,8 @@ body a {
 /* fix this */
 .container {
   padding: 0;
-  margin-left: 2%;
-  min-width: 95%;
+  margin-left: 0;
+  min-width: 100%;
 }
 
 
