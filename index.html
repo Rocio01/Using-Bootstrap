@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Newsweek|The Bootstrap Project</title>
+  <title>Newsweek|The Bootstrap Project</title>
   <link rel="stylesheet" href="css/style.css" type="text/css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="weatherReport">
-        <h5>Weather 99, somewhere</h5>
-        <br>
-        <h5>Monday July 06, 2020</h5>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+
+      <div class="row justify-content-between topNavbar">
+        <span class="d-none d-lg-inline align-self-end date">Tue, July 07, 2020</span>
+        <a class="logoLink" href="#">
+          <img class="logo" src="img/logo.svg" alt="logo">
+        </a>
+        <span class="align-self-lg-end text-uppercase buttons">
+          <a href="#" class="text-decoration-none sign-in">sign in</a>
+          <a href="#" class="text-decoration-none subscribe">subscribe <i class="fas fa-chevron-right"></i></a>
+          <a href="#" class="d-lg-none menu-icon"><i class="fas fa-bars"></i></a>
+        </span>
       </div>
 
-      <div class="logoText">
-        <h1>Newsweek</h1>
-      </div>
-      <div class="rightOptions">
-        <h5>Login</h5>
-        <button class="subscribe">subscribe</button>
-      </div>
-    </header>
+     
 
-    <nav class=""></nav>
 
-    <article></article>
+  </header>
 
-    <footer></footer>
-    
-  </body>
+  <nav class=""></nav>
+
+  <article></article>
+
+  <footer></footer>
+
+</body>
+
 </html>
