@@ -223,8 +223,8 @@ body a {
 }
 
 .n-logo {
-  min-width: 28px;
-  min-height: 28px;
+  max-width: 28px;
+  max-height: 28px;
 }
 
 .main-container .logo-n {
@@ -399,3 +399,34 @@ body a {
   }
 }
 
+.politics {
+  border: 1px solid red;
+  padding: 0;
+  position: absolute;
+  margin-top: 60%;
+}
+
+.ingood {
+  margin-top: 125%;
+}
+
+.card-title {
+  width: fit-content;
+  padding-bottom: 0;
+}
+
+.card-img-text img {
+    width: 100%;
+    padding-top: 0;
+    object-fit: cover;
+}
+
+.cover {
+  background-color: #f72210;
+  color: white;
+  padding: 5px;
+}
+
+.two-c-magazine {
+  
+}
