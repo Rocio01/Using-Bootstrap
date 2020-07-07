@@ -111,3 +111,12 @@ div {
 .rightOptions{
   align-items: right;
 }
+.my-turn {
+  width: 100%;
+  padding: 0;
+}
+
+.turn-text {
+  padding: 2% 0;
+
+}
