@@ -151,7 +151,7 @@ header .topNavbar {
   font-weight: bold;
   background-color: #f72210;
   border-bottom: 1px solid #f4f5f6;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .navbar .navbar-nav {
@@ -170,7 +170,6 @@ header .topNavbar {
   padding: 0 !important;
   flex: 1;
   font-size: 15px;
-
 }
 
 .secondNav li {
@@ -179,7 +178,7 @@ header .topNavbar {
 
 .secondNav.nav-link {
   display: block;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .search .nav-link {
@@ -421,7 +420,7 @@ form .form-submit {
 }
 
 
-/*Footer Stlyling*/
+/* Footer Stlyling */
 
 .container footer {
   color: #666;
@@ -491,7 +490,10 @@ footer .footer-links {
   .story-n {
     display: none;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d86223bd8cb63669a2abfa8cf361624d9bfc3d72
 }
 
 @media screen and (max-width: 767px) {
@@ -553,7 +555,6 @@ footer .footer-links {
   .topNavbar {
     flex-grow: 1;
   }
-
 }
 
 .politics {
@@ -575,7 +576,6 @@ footer .footer-links {
   color: #000;
   text-decoration: underline red;
 }
-
 
 h6 {
   color: rgba(3, 3, 3, 0.4);
@@ -609,8 +609,6 @@ h6 {
   position: relative;
 }
 
-
-
 .cover {
   background-color: #f72210;
   color: white;
@@ -639,7 +637,7 @@ h6 {
 .travel {
   color: #000;
   padding: 3px;
-  background-color: #C2D4D7;
+  background-color: #c2d4d7;
   font-weight: 600;
   font-size: 0.9em;
 }
@@ -669,7 +667,6 @@ h6 {
   color: #000;
   font-weight: 700;
   line-height: normal;
-
 }
 
 .stories-text a:hover {
@@ -699,7 +696,7 @@ hr {
   font-size: 1em;
   background-color: black;
   border-radius: 50%;
-  color: #C2D4D7;
+  color: #c2d4d7;
   display: block;
 }
 
@@ -760,11 +757,8 @@ b {
 .form-logo {
   width: 29px;
   height: 29px;
-
 }
 
 .Featured-storys {
-
   margin: 2% 0;
-
 }
