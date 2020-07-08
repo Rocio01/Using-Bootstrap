@@ -480,6 +480,17 @@ footer .footer-links {
 }
 
 /* Small Screen style */
+@media screen and (min-width: 767px) {
+  .story-n {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-s {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 991px) {
   .logoLink .logo {
@@ -733,6 +744,8 @@ b {
   
 }
 
-.two-c-magazine {
+ .Featured-storys {
+
+margin: 2% 0;
 
 }
