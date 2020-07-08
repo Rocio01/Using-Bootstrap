@@ -439,6 +439,7 @@ form .form-submit {
 .container footer {
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 footer .logo-red {
@@ -451,6 +452,51 @@ footer .logo-red {
 footer .copyright {
   font-size: 12px;
   margin-bottom: 12px;
+}
+
+footer .social {
+  color: #666;
+  font-size: 24px;
+}
+
+.social .fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.social .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.social .fa-instagram:hover {
+  color: #405de6;
+}
+
+.social .fa-tumblr:hover {
+  color: #35465c;
+}
+
+.social .fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+footer .footer-links {
+  font-size: 14px;
+}
+
+.edition strong {
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.menu .menu-item {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 6px 10px 6px 0;
+}
+
+.menu .menu-item a:hover {
+  color: black;
 }
 
 /* Small Screen style */
