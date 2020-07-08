@@ -172,6 +172,7 @@ body a {
   color: #000;
   padding: 0 !important;
   flex: 1;
+  font-size: 15px;
 }
 
 .search .nav-link {
@@ -529,6 +530,10 @@ footer .footer-links {
 
   .buttons .menu-icon {
     padding: 0 15px;
+  }
+
+  .topNavbar{
+    flex-grow: 1;
   }
 
 }
