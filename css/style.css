@@ -106,7 +106,6 @@ body {
   max-width: 1310px;
 }
 
-
 body .mx-neg-15 {
   margin: 0 -15px;
 }
@@ -115,7 +114,6 @@ body a {
   color: inherit;
   text-decoration: none;
 }
-
 
 .header .topNavbar {
   background-color: #f72210;
@@ -138,7 +136,6 @@ body a {
 
 .topNavbar .buttons {
   font-size: 18px;
-
 }
 
 .buttons .sign-in,
@@ -147,23 +144,23 @@ body a {
 }
 
 .buttons .sign-in {
-  font: bold 13px/24px "Roboto Condensed",sans-serif;
-    cursor: pointer;
-    text-transform: uppercase;
-    display: inline-block;
-    padding-left: 12px;
-    padding-right: 12px;
-    border-radius: 24px;
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 24px;
 }
 
 .buttons .subscribe {
   background-color: #fff;
   padding: 2px 12px;
   background-color: #ffe400;
-    color: black;
-    border-radius: 24px;
-    display: flex;
-    align-items: center;
+  color: black;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .header .navbar {
@@ -203,18 +200,9 @@ body a {
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-.rightOptions{
+.rightOptions {
   align-items: right;
 }
-
-
 
 .img-stories {
   padding: 5px;
@@ -238,14 +226,11 @@ body a {
   margin-left: 0.5em;
 }
 
-/* fix this */
 .container {
   padding: 0;
-  margin-left: 0;
+  margin: 2% 0;
   min-width: 100%;
 }
-
-
 
 .main-container {
   padding: 30px;
@@ -259,7 +244,6 @@ body a {
   padding-bottom: 11px;
   color: #f72210;
 }
-
 
 .featured-article .article-heading,
 .sponsored-container .article-heading {
@@ -301,13 +285,9 @@ body a {
   text-decoration-color: #f72210;
 }
 
-
 .featured-article .category {
   color: #f72210;
 }
-
-
-
 
 .magazine .article-heading {
   font-size: 19px;
@@ -347,7 +327,7 @@ body a {
 
 
 
-/*Section Styling*/
+/* Section Styling */
 
 .section-picks .heading {
   color: #f72210;
@@ -398,7 +378,7 @@ body a {
 }
 
 .position-relative {
-  position: relative!important;
+  position: relative !important;
 }
 
 .mag-img .img1 {
@@ -412,7 +392,7 @@ body a {
 
 form {
   display: block;
-  margin-top: 0em;
+  margin-top: 0;
 }
 
 .text-center .free-signup input {
@@ -424,12 +404,15 @@ form {
 .free-signup .form-text {
   color: #555;
   font-size: 14px;
-  font-family: "Helvetica",sans-serf;
+  font-family: "Helvetica", sans-serf;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
 }
-
+.card-body {
+  padding: 1em 0 !important; 
+  line-height: normal;
+}
 .text-center .free-signup .form-submit {
   margin-top: 11px;
 }
@@ -440,7 +423,7 @@ form {
   cursor: pointer;
   font-weight: bold;
   font-size: 0;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
   border-radius: 3px;
   border: 0 none;
@@ -460,7 +443,7 @@ form .form-submit {
     margin-top: 0;
   }
 
-  header .topNavbar{
+  header .topNavbar {
     height: 50px;
     padding: 12px;
     position: fixed;
@@ -487,14 +470,17 @@ form .form-submit {
   color: red;
   padding: 7px 5px;
   position: absolute;
-  margin-top: 56%;
+  bottom: 0;
+  left: 0;
   background-color: rgba(255, 255, 255, 0.9);
   font-weight: 700;
 }
+
 .politics:hover {
   text-decoration: none;
   color: #f72210;
 }
+
 .card-body a:hover {
   color: #000;
   text-decoration: underline red;
@@ -509,9 +495,11 @@ h6 {
 .card-title {
   font-weight: bolder;
 }
+
 .health {
   margin-top: 60%;
 }
+
 .ingood {
   margin-top: 120%;
 }
@@ -522,9 +510,13 @@ h6 {
 }
 
 .card-img-text img {
-    width: 100%;
-    padding-top: 0;
-    object-fit: cover;
+  width: 100%;
+  padding-top: 0;
+  object-fit: cover;
+}
+
+.card-img {
+  position: relative;
 }
 
 .cover {
@@ -532,11 +524,39 @@ h6 {
   color: white;
   padding: 5px;
 }
+
 .img-round {
   width: 80px;
   height: 80px;
 }
 
+.turn h5{
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 1em;
+  font-weight: 700; 
+}
+
+.my-turn {
+  padding: 0 7px !important;
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 700;
+}
+
+.travel {
+  color: #000;
+  padding: 3px;
+  background-color:#C2D4D7;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.travel:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 .two-c-magazine {
-  
+
 }
