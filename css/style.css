@@ -531,6 +531,13 @@ footer .footer-links {
   }
 }
 
+
+/* Styles for mobile devices */
+@media screen and (max-width: 480px) {
+
+  
+}
+
 .politics {
   color: red;
   padding: 7px 5px;
