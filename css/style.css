@@ -176,6 +176,11 @@ body a {
   padding: 0 !important;
   flex: 1;
   font-size: 15px;
+
+}
+
+.secondNav li {
+  margin: auto 0.5em;
 }
 
 .secondNav.nav-link{
@@ -493,6 +498,7 @@ footer .footer-links {
   .story-n {
     display: none;
   }
+ 
 }
 
 @media screen and (max-width: 767px) {
@@ -500,6 +506,8 @@ footer .footer-links {
     display: none;
   }
 }
+
+
 
 @media screen and (max-width: 991px) {
   .logoLink .logo {
@@ -609,6 +617,8 @@ h6 {
 .card-img {
   position: relative;
 }
+
+
 
 .cover {
   background-color: #f72210;
