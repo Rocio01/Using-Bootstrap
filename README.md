@@ -47,9 +47,9 @@ In this task we were required to create a responsive homepage clone of Newsweek 
 
 👤 **Prabhakar Pandey**
 
-- Github: [@githubhandle](https://github.com/Prabhakarzx)
-- Twitter: [@twitterhandle](https://twitter.com/prabhakarzx)
-- Linkedin: [linkedin](https://www.linkedin.com/in/prabhakarzx/)
+- Github: [@Prabhakarzx](https://github.com/Prabhakarzx)
+- Twitter: [@Prabhakarzx](https://twitter.com/prabhakarzx)
+- Linkedin: [@Prabhakarzx](https://www.linkedin.com/in/prabhakarzx/)
 
 ## 🤝 Contributing
 
