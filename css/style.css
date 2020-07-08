@@ -96,10 +96,6 @@ video {
   box-sizing: border-box;
 }
 
-div {
-  border: 1px solid blue;
-}
-
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #f4f5f6;
@@ -115,10 +111,10 @@ body a {
   text-decoration: none;
 }
 
-.header .topNavbar {
+header .topNavbar {
   background-color: #f72210;
   color: #fff;
-  height: 95px;
+  height: 100px;
   padding: 20px 10px 15px;
 }
 
@@ -516,8 +512,9 @@ footer .footer-links {
     margin-top: 0;
   }
 
+
   header .topNavbar {
-    height: 50px;
+    height: 58px;
     padding: 12px;
     position: fixed;
     top: 0;
