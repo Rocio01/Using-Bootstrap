@@ -19,15 +19,26 @@
     <header class="header">
 
       <div class="row justify-content-between topNavbar">
-        <span class="d-none d-lg-inline align-self-end date">Tue, July 07, 2020</span>
+        <div class="d-none d-lg-flex flex-column justify-content-center pl-4">
+          <a href="#" class="d-flex flex-row text-decoration-none">
+            <img class="weatherInfo" src="images/weather_icon.png" alt="Weather Info">
+            <span class="text-white ml-2">28° Lucknow, IN &gt;</span>
+          </a>
+          <span class="text-white font-weight-light mt-2 date">Wed, Jul 08, 2020</span>
+        </div>
         <a class="logoLink" href="#">
           <img class="logo" src="images/logo.svg" alt="logo">
         </a>
-        <span class="align-self-lg-end text-uppercase buttons">
-          <a href="#" class="text-decoration-none sign-in">sign in</a>
-          <a href="#" class="text-decoration-none subscribe">subscribe <i class="fas fa-chevron-right"></i></a>
-          <a href="#" class="d-lg-none menu-icon"><i class="fas fa-bars"></i></a>
-        </span>
+
+        <div class="d-flex align-items-center">
+          <i class="fa fa-user d-md-none text-white px-3" aria-hidden="true"></i>
+          <a class="d-none d-md-block align-center text-white mr-2" href="#">LOGIN</a>
+          <button type="button" class="btn font-weight-bold rounded-pill bg-warning mr-3">
+            SUBSCRIBE &gt;
+          </button>
+          <i class="fa fa-bars d-lg-none d-xl-none text-white" aria-hidden="true"></i>
+        </div>
+
       </div>
 
       <nav class="d-none d-lg-block navbar navbar-expand p-0 mx-neg-15">
