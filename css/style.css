@@ -534,8 +534,23 @@ footer .footer-links {
 
 /* Styles for mobile devices */
 @media screen and (max-width: 480px) {
+  .logoLink .buttons {
+    font-size: 14px;
+    align-self: center;
+  }
 
-  
+  .buttons .subscribe {
+    padding: 5px 0 5px 3px;
+  }
+
+  .subscribe .fas {
+    display: none;
+  }
+
+  .buttons .menu-icon {
+    padding: 0 15px;
+  }
+
 }
 
 .politics {
