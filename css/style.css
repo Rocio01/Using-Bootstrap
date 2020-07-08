@@ -204,12 +204,6 @@ body a {
   align-items: right;
 }
 
-.img-stories {
-  padding: 5px;
-  max-width: 100px;
-  max-height: 100px;
-}
-
 .n-logo {
   max-width: 28px;
   max-height: 28px;
@@ -554,6 +548,91 @@ h6 {
 .travel:hover {
   text-decoration: none;
   color: #000;
+}
+
+.more-stories {
+  margin: 2% auto;
+}
+
+.img-stories {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.stories-text {
+  margin-left: 1em;
+  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
+  padding-bottom: 1em;
+}
+
+.stories-text h5 {
+  font-size: 1em;
+  color: #000;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.stories-text a:hover {
+  color: black;
+  text-decoration: underline red;
+}
+
+.stories-text p {
+  font-size: 0.9em;
+  color: #333;
+  line-height: normal;
+}
+
+hr {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+  }
+.vs span {
+  position: absolute;
+  margin: 5px 0;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  font-size: 1em;
+  background-color: black;
+  border-radius: 50%;
+  color: #C2D4D7;
+  display: block;
+}
+
+ .border-b {
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgba(3, 3, 3, 0.4);
+}
+b {
+  color: #555;
+  font-size: 0.8em;
+}
+
+.border-opinion {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
+}
+
+.debate p {
+  margin: 0 1em;
+  font-size: 0.9em;
+  line-height: normal;
+}
+
+.debate a {
+  font-weight: 700;
+}
+.debate a:hover, .see-all a:hover  {
+  color: #000;
+  text-decoration: underline red;
+}
+.see-all h6 {
+  color: #000;
+  font-size: 1em;
 }
 
 .two-c-magazine {
