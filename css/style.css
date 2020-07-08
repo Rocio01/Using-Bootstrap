@@ -134,15 +134,15 @@ header .topNavbar {
   font-size: 18px;
 }
 
-.topNavbar date{
+.topNavbar date {
   display: none;
-    font: 16px/34px "Roboto Condensed",sans-serif;
-    color: white;
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
 }
 
 .weatherInfo {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .header .navbar {
@@ -158,8 +158,6 @@ header .topNavbar {
   padding: 15px 75px 15px 10px;
   clip-path: polygon(0 0, calc(100% - 80px) 0, calc(100% - 68px) 13px, 100% 13px, 101% 55px, 0 55px);
 }
-
-
 
 .navbar-nav .nav-item {
   border-left: 1px solid #d9d9d9;
@@ -179,7 +177,7 @@ header .topNavbar {
   margin: auto 0.5em;
 }
 
-.secondNav.nav-link{
+.secondNav.nav-link {
   display: block;
   padding: .5rem 1rem;
 }
@@ -313,9 +311,6 @@ header .topNavbar {
   width: 100%;
 }
 
-
-
-
 /* Section Styling */
 
 .section-picks .heading {
@@ -398,10 +393,12 @@ form {
   border: 1px solid #e0e1e1;
   text-indent: 9px;
 }
+
 .card-body {
-  padding: 1em 0 !important; 
+  padding: 1em 0 !important;
   line-height: normal;
 }
+
 .text-center .free-signup .form-submit {
   margin-top: 11px;
 }
@@ -494,7 +491,7 @@ footer .footer-links {
   .story-n {
     display: none;
   }
- 
+
 }
 
 @media screen and (max-width: 767px) {
@@ -503,15 +500,12 @@ footer .footer-links {
   }
 }
 
-
-
 @media screen and (max-width: 991px) {
   .logoLink .logo {
     width: 132px;
     height: 20px;
     margin-top: 0;
   }
-
 
   header .topNavbar {
     height: 58px;
@@ -556,7 +550,7 @@ footer .footer-links {
     padding: 0 15px;
   }
 
-  .topNavbar{
+  .topNavbar {
     flex-grow: 1;
   }
 
@@ -628,10 +622,10 @@ h6 {
   height: 80px;
 }
 
-.turn h5{
+.turn h5 {
   color: rgba(3, 3, 3, 0.5);
   font-size: 1em;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .my-turn {
@@ -645,7 +639,7 @@ h6 {
 .travel {
   color: #000;
   padding: 3px;
-  background-color:#C2D4D7;
+  background-color: #C2D4D7;
   font-weight: 600;
   font-size: 0.9em;
 }
@@ -690,11 +684,12 @@ h6 {
 }
 
 hr {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-  }
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
 .vs span {
   position: absolute;
   margin: 5px 0;
@@ -708,10 +703,11 @@ hr {
   display: block;
 }
 
- .border-b {
+.border-b {
   padding-bottom: 10px;
   border-bottom: 3px solid rgba(3, 3, 3, 0.4);
 }
+
 b {
   color: #555;
   font-size: 0.8em;
@@ -731,10 +727,13 @@ b {
 .debate a {
   font-weight: 700;
 }
-.debate a:hover, .see-all a:hover  {
+
+.debate a:hover,
+.see-all a:hover {
   color: #000;
   text-decoration: underline red;
 }
+
 .see-all h6 {
   color: #000;
   font-size: 1em;
@@ -747,7 +746,7 @@ b {
 }
 
 .free-sign {
-  background-color: red !important;  
+  background-color: red !important;
 }
 
 .form-aside {
@@ -761,11 +760,11 @@ b {
 .form-logo {
   width: 29px;
   height: 29px;
-  
+
 }
 
- .Featured-storys {
+.Featured-storys {
 
-margin: 2% 0;
+  margin: 2% 0;
 
 }
