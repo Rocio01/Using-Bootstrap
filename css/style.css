@@ -310,9 +310,6 @@ header .topNavbar {
   width: 100%;
 }
 
-
-
-
 /* Section Styling */
 
 .section-picks .heading {
@@ -493,6 +490,10 @@ footer .footer-links {
   .story-n {
     display: none;
   }
+<<<<<<< HEAD
+
+=======
+>>>>>>> d86223bd8cb63669a2abfa8cf361624d9bfc3d72
 }
 
 @media screen and (max-width: 767px) {
