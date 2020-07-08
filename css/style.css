@@ -111,6 +111,12 @@ body a {
   text-decoration: none;
 }
 
+.topNavbar {
+  display: none;
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+}
+
 header .topNavbar {
   background-color: #f72210;
   color: #fff;
@@ -132,12 +138,6 @@ header .topNavbar {
 
 .topNavbar .buttons {
   font-size: 18px;
-}
-
-.topNavbar date {
-  display: none;
-  font: 16px/34px "Roboto Condensed", sans-serif;
-  color: white;
 }
 
 .weatherInfo {
@@ -266,6 +266,10 @@ header .topNavbar {
   color: #333;
 }
 
+.debate a {
+  font-weight: 700;
+}
+
 .article-heading a:hover {
   text-decoration: underline;
   text-decoration-color: #f72210;
@@ -319,6 +323,22 @@ header .topNavbar {
 
 .opinion .opinion-title {
   font-size: 17px;
+}
+
+.card-body a:hover {
+  color: #000;
+  text-decoration: underline red;
+}
+
+.stories-text a:hover {
+  color: black;
+  text-decoration: underline red;
+}
+
+.debate a:hover,
+.see-all a:hover {
+  color: #000;
+  text-decoration: underline red;
 }
 
 .top-articles .opinion-title a:hover {
@@ -387,7 +407,7 @@ form {
 .free-signup .form-text {
   color: #555;
   font-size: 14px;
-  font-family: "Helvetica", sans-serf;
+  font-family: "Helvetica", sans-serif;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
@@ -398,8 +418,9 @@ form {
   line-height: normal;
 }
 
-.text-center .free-signup .form-submit {
-  margin-top: 11px;
+form .form-submit {
+  cursor: pointer;
+  text-align: center;
 }
 
 .free-signup .form-submit {
@@ -414,10 +435,10 @@ form {
   border: 0 none;
 }
 
-form .form-submit {
-  cursor: pointer;
-  text-align: center;
+.text-center .free-signup .form-submit {
+  margin-top: 11px;
 }
+
 
 
 /* Footer Stlyling */
@@ -490,10 +511,6 @@ footer .footer-links {
   .story-n {
     display: none;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> d86223bd8cb63669a2abfa8cf361624d9bfc3d72
 }
 
 @media screen and (max-width: 767px) {
@@ -572,11 +589,6 @@ footer .footer-links {
   color: #f72210;
 }
 
-.card-body a:hover {
-  color: #000;
-  text-decoration: underline red;
-}
-
 h6 {
   color: rgba(3, 3, 3, 0.4);
   font-weight: bold;
@@ -584,6 +596,8 @@ h6 {
 
 .card-title {
   font-weight: bolder;
+  width: fit-content;
+  padding-bottom: 0;
 }
 
 .health {
@@ -592,11 +606,6 @@ h6 {
 
 .ingood {
   margin-top: 120%;
-}
-
-.card-title {
-  width: fit-content;
-  padding-bottom: 0;
 }
 
 .card-img-text img {
@@ -669,11 +678,6 @@ h6 {
   line-height: normal;
 }
 
-.stories-text a:hover {
-  color: black;
-  text-decoration: underline red;
-}
-
 .stories-text p {
   font-size: 0.9em;
   color: #333;
@@ -719,16 +723,6 @@ b {
   margin: 0 1em;
   font-size: 0.9em;
   line-height: normal;
-}
-
-.debate a {
-  font-weight: 700;
-}
-
-.debate a:hover,
-.see-all a:hover {
-  color: #000;
-  text-decoration: underline red;
 }
 
 .see-all h6 {
