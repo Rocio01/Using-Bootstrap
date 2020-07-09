@@ -516,6 +516,14 @@ footer .footer-links {
   .top-s {
     display: none;
   }
+
+  .main-container {
+    padding: 0 !important;
+  }
+  
+  .col-sm-12 {
+    padding: 0 !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
