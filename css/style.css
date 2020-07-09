@@ -193,10 +193,6 @@ header .topNavbar {
   opacity: 1;
 }
 
-.rightOptions {
-  align-items: right;
-}
-
 .n-logo {
   max-width: 28px;
   max-height: 28px;
@@ -439,8 +435,6 @@ form .form-submit {
   margin-top: 11px;
 }
 
-
-
 /* Footer Stlyling */
 
 .container footer {
@@ -548,7 +542,6 @@ footer .footer-links {
     padding: 20px;
   }
 }
-
 
 /* Styles for mobile devices */
 @media screen and (max-width: 480px) {
