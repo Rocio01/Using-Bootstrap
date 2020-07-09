@@ -212,6 +212,7 @@ header .topNavbar {
 .container {
   padding: 0;
   min-width: 100%;
+  overflow-x: hidden;
 }
 
 .main-container {
