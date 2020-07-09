@@ -24,7 +24,7 @@ In this task we were required to create a responsive homepage clone of Newsweek 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Rocio01/Using-Bootstrap/7f17872a78c8abf7a56cfebcab8d6643aa55f7ff/index.html)
+[Live Demo Link](https://raw.githack.com/Rocio01/Using-Bootstrap/master/index.html)
 
 
 ### Prerequisites
