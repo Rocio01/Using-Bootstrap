@@ -218,6 +218,11 @@ header .topNavbar {
   padding: 30px;
 }
 
+.card {
+  border: none !important;
+  margin-bottom: 1em !important;
+}
+
 .container .column-title {
   font-size: 16px;
   line-height: 16px;
@@ -511,6 +516,14 @@ footer .footer-links {
   .top-s {
     display: none;
   }
+
+  .main-container {
+    padding: 0 !important;
+  }
+  
+  .col-sm-12 {
+    padding: 0 !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -656,12 +669,12 @@ h6 {
 .img-stories {
   max-width: 100px;
   max-height: 100px;
+  margin-right: 1em;
 }
 
 .stories-text {
-  margin-left: 1em;
-  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
-  padding-bottom: 1em;
+  border-bottom: 2px solid #f4f5f6;
+  margin-bottom: 1em;
 }
 
 .stories-text h5 {
@@ -708,8 +721,8 @@ b {
 }
 
 .border-opinion {
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
+  margin-bottom: 10px;
+  border-bottom: 3px solid #f4f5f6;
 }
 
 .debate p {
