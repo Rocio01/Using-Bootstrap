@@ -520,10 +520,14 @@ footer .footer-links {
   .main-container {
     padding: 0 !important;
   }
-  
+
   .col-sm-12 {
     padding: 0 !important;
   }
+  .more-stories {
+    max-width: 90vw;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -663,12 +667,12 @@ h6 {
 }
 
 .more-stories {
-  margin: 2% auto;
+  margin: 2%;
 }
 
 .img-stories {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 95px;
+  max-width: 95px;
   margin-right: 1em;
 }
 
