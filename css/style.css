@@ -448,6 +448,25 @@ form .form-submit {
   width: 100%;
 }
 
+.page-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  position: relative;
+}
+
+.footerdownLinks {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
+  position: relative;
+}
+
+.page-footer.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 footer .logo-red {
   width: 236px;
   height: 36px;
