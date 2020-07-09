@@ -614,11 +614,11 @@ footer .footer-links {
     width: 100%;
   }
 
-  .topNavbar .btn{
+  .topNavbar .btn {
     height: 23px;
     margin: 0;
     padding: 0;
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: lighter;
   }
 }
