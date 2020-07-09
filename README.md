@@ -1,63 +1,61 @@
-# Project Name
+# Clone of website newsweek.com Using Bootstrap
 
-> One paragraph statement about the project.
+> 
+This project is focused on creating responsive homepage of the news site Newsweek.com using the Bootstrap framework. In this project we're required to create homepage of [Newsweek](https://www.newsweek.com/)
 
-![screenshot](./app_screenshot.png)
+In this task we were required to create a responsive homepage clone of Newsweek using the best practices of HTML AND CSS with GitHub process flow.
 
-Additional description about the project and its features.
+## Desktop Screenshot
+
+![screenshot](./images/Desktop_Screenshot_Newsweek.png)
+
+## Small screen Screenshot
+
+![screenshot](./images/Small_Devices_Screenshot.png)
+
+## Mobile Device Screenshot
+![screenshot](./images/Mobile_Screenshot_Newsweek.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Twitter’s Bootstrap framework
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/Rocio01/Using-Bootstrap/7f17872a78c8abf7a56cfebcab8d6643aa55f7ff/index.html)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Browser (Google Chrome, Mozilla Firefox, Safari or any other browser)
+
 ### Setup
 
-### Install
+- Download or clone the repository's files
+- Open the index.html file using any web browser of your choice
+- Additionally, You can go to [githack](https://raw.githack.com) and put the link of HTML file there and access the site from generated link.
 
-### Usage
+## Author
 
-### Run tests
+👤 **Rocio Martinez**
 
-### Deployment
+- Github: [@Rocio01](https://github.com/Rocio01)
+- Twitter: [@rugiada8801](https://twitter.com/rugiada8801)
+- Linkedin: [zulma-martinez-5247a31a8](https://www.linkedin.com/in/zulma-martinez-5247a31a8/)
 
+👤 **Prabhakar Pandey**
 
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Prabhakarzx](https://github.com/Prabhakarzx)
+- Twitter: [@Prabhakarzx](https://twitter.com/prabhakarzx)
+- Linkedin: [@Prabhakarzx](https://www.linkedin.com/in/prabhakarzx/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Rocio01/Using-Bootstrap/issues).
 
 ## Show your support
 
@@ -65,9 +63,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- GitHub
+- TheOdinProject
+- Bootstrap
 
 ## 📝 License
 

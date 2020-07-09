@@ -1,0 +1,807 @@
+/* css reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  vertical-align: baseline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f4f5f6;
+  max-width: 1310px;
+}
+
+body .mx-neg-15 {
+  margin: 0 -15px;
+}
+
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.topNavbar {
+  display: none;
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+header .topNavbar {
+  background-color: #f72210;
+  color: #fff;
+  height: 100px;
+  padding: 20px 10px 15px;
+}
+
+.logoLink .logo {
+  width: 396px;
+  height: 60px;
+}
+
+.topNavbar .date {
+  margin-bottom: 4px;
+  margin-left: 20px;
+  margin-right: 43px;
+  font-size: 16px;
+}
+
+.topNavbar .buttons {
+  font-size: 18px;
+}
+
+.weatherInfo {
+  height: 24px;
+  width: 24px;
+}
+
+.header .navbar {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  background-color: #f72210;
+  border-bottom: 1px solid #f4f5f6;
+  padding: 0.5rem 1rem;
+}
+
+.navbar .navbar-nav {
+  padding: 15px 75px 15px 10px;
+  clip-path: polygon(0 0, calc(100% - 80px) 0, calc(100% - 68px) 13px, 100% 13px, 101% 55px, 0 55px);
+}
+
+.navbar-nav .nav-item {
+  border-left: 1px solid #d9d9d9;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nav-item .nav-link {
+  color: #000;
+  padding: 0 !important;
+  flex: 1;
+  font-size: 15px;
+}
+
+.secondNav li {
+  margin: auto 0.5em;
+}
+
+.secondNav.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.search .nav-link {
+  font-weight: 100;
+  font-size: 17px;
+  opacity: 0.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search svg {
+  width: 20px;
+  opacity: 1;
+}
+
+.n-logo {
+  max-width: 28px;
+  max-height: 28px;
+}
+
+.main-container .logo-n {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  fill: white;
+}
+
+.magazine-title {
+  margin-left: 0.5em;
+}
+
+.container {
+  padding: 0;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+.main-container {
+  padding: 30px;
+}
+
+.card {
+  border: none !important;
+  margin-bottom: 1em !important;
+}
+
+.container .column-title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #f72210;
+}
+
+.featured-article .article-heading,
+.sponsored-container .article-heading {
+  font-size: 23px;
+  line-height: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.featured-article .img,
+.sponsored-container .img {
+  position: relative;
+}
+
+.featured-article .category,
+.sponsored-container .category {
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container .summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
+.debate a {
+  font-weight: 700;
+}
+
+.article-heading a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.featured-article .category {
+  color: #f72210;
+}
+
+.magazine .article-heading {
+  font-size: 19px;
+}
+
+.magazine .see-all {
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.magazine .see-all:hover {
+  background-color: #dbdcdd;
+}
+
+.main-container .section-heading {
+  font-size: 19px;
+}
+
+.magazine .mag-cat {
+  padding: 0 7px;
+  background-color: #f72210;
+  margin-right: 7px;
+}
+
+.magazine .cat {
+  color: #f72210;
+}
+
+.magazine img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Section Styling */
+
+.section-picks .heading {
+  color: #f72210;
+  font-size: 22px;
+}
+
+.opinion .opinion-title {
+  font-size: 17px;
+}
+
+.card-body a:hover {
+  color: #000;
+  text-decoration: underline red;
+}
+
+.stories-text a:hover {
+  color: black;
+  text-decoration: underline red;
+}
+
+.debate a:hover,
+.see-all a:hover {
+  color: #000;
+  text-decoration: underline red;
+}
+
+.top-articles .opinion-title a:hover {
+  color: #f72210;
+}
+
+.opinion .by {
+  font-size: 14px;
+  color: #555;
+}
+
+/* subscription styling */
+
+.container .subscription {
+  max-width: 1310px;
+}
+
+.subscription .signup-img {
+  object-fit: cover;
+}
+
+.subscription .bg-light {
+  background-color: #f4f5f6 !important;
+}
+
+.subscription .p-30 {
+  padding: 20px;
+}
+
+.subscription .buttons {
+  padding: 6px 10px;
+  color: white;
+  background-color: #f72210;
+  font-size: 18px;
+}
+
+.subscription .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.mag-img .img1 {
+  left: 55px;
+}
+
+.mag-img .img2 {
+  top: 13px;
+  right: 55px;
+}
+
+form {
+  display: block;
+  margin-top: 0;
+}
+
+.text-center .free-signup input {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+}
+
+.free-signup .form-text {
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+}
+
+.card-body {
+  padding: 1em 0 !important;
+  line-height: normal;
+}
+
+form .form-submit {
+  cursor: pointer;
+  text-align: center;
+}
+
+.free-signup .form-submit {
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
+  border-radius: 3px;
+  border: 0 none;
+}
+
+.text-center .free-signup .form-submit {
+  margin-top: 11px;
+}
+
+/* Footer Stlyling */
+
+.container footer {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.page-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  position: relative;
+}
+
+.footerdownLinks {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
+  position: relative;
+}
+
+.page-footer.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer .logo-red {
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+footer .copyright {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+footer .social {
+  color: #666;
+  font-size: 24px;
+}
+
+.social .fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.social .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.social .fa-instagram:hover {
+  color: #405de6;
+}
+
+.social .fa-tumblr:hover {
+  color: #35465c;
+}
+
+.social .fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+footer .footer-links {
+  font-size: 14px;
+}
+
+.edition strong {
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.menu .menu-item {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 6px 10px 6px 0;
+}
+
+.menu .menu-item a:hover {
+  color: black;
+}
+
+/* Small Screen style */
+@media screen and (min-width: 767px) {
+  .story-n {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-s {
+    display: none;
+  }
+
+  .main-container {
+    padding: 0 !important;
+  }
+
+  .col-sm-12 {
+    padding: 0 !important;
+  }
+
+  .more-stories {
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .logoLink .logo {
+    width: 132px;
+    height: 20px;
+    margin-top: 0;
+  }
+
+  header .topNavbar {
+    height: 58px;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+  }
+
+  .opinion .opinion-title {
+    font-size: 20px;
+  }
+
+  .buttons .menu-icon {
+    color: #fb9a94;
+    padding: 11px 22px;
+  }
+
+  .subscription .p-20 {
+    padding: 20px;
+  }
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 480px) {
+  .logoLink .buttons {
+    font-size: 14px;
+    align-self: center;
+  }
+
+  .buttons .subscribe {
+    padding: 5px 0 5px 3px;
+  }
+
+  .subscribe .fas {
+    display: none;
+  }
+
+  .buttons .menu-icon {
+    padding: 0 15px;
+  }
+
+  .topNavbar {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  header .topNavbar {
+    height: 40px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+  }
+
+  .topNavbar .btn {
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+    font-weight: lighter;
+  }
+}
+
+.politics {
+  color: red;
+  padding: 7px 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+}
+
+.politics:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+h6 {
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bolder;
+  width: fit-content;
+  padding-bottom: 0;
+}
+
+.health {
+  margin-top: 60%;
+}
+
+.ingood {
+  margin-top: 120%;
+}
+
+.card-img-text img {
+  width: 100%;
+  padding-top: 0;
+  object-fit: cover;
+}
+
+.card-img {
+  position: relative;
+}
+
+.cover {
+  background-color: #f72210;
+  color: white;
+  padding: 5px;
+}
+
+.img-round {
+  width: 80px;
+  height: 80px;
+}
+
+.turn h5 {
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.my-turn {
+  padding: 0 7px !important;
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 700;
+}
+
+.travel {
+  color: #000;
+  padding: 3px;
+  background-color: #c2d4d7;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.travel:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.more-stories {
+  margin: 2%;
+}
+
+.img-stories {
+  max-width: 95px;
+  max-height: 95px;
+  margin-right: 1em;
+}
+
+.stories-text {
+  border-bottom: 2px solid #f4f5f6;
+  margin-bottom: 1em;
+}
+
+.stories-text h5 {
+  font-size: 1em;
+  color: #000;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.stories-text p {
+  font-size: 0.9em;
+  color: #333;
+  line-height: normal;
+}
+
+hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.vs span {
+  position: absolute;
+  margin: 5px 0;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  font-size: 1em;
+  background-color: black;
+  border-radius: 50%;
+  color: #c2d4d7;
+  display: block;
+}
+
+.border-b {
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgba(3, 3, 3, 0.4);
+}
+
+b {
+  color: #555;
+  font-size: 0.8em;
+}
+
+.border-opinion {
+  margin-bottom: 10px;
+  border-bottom: 3px solid #f4f5f6;
+}
+
+.debate p {
+  margin: 0 1em;
+  font-size: 0.9em;
+  line-height: normal;
+}
+
+.see-all h6 {
+  color: #000;
+  font-size: 1em;
+}
+
+.form-group h6 {
+  color: #333;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.free-sign {
+  background-color: red !important;
+}
+
+.form-aside {
+  background-color: #f4f5f6;
+  padding: 2em;
+  margin-top: 1em;
+  border: 1px solid #333;
+  max-width: 330px;
+}
+
+.form-logo {
+  width: 29px;
+  height: 29px;
+}
+
+.Featured-storys {
+  margin: 2% 0;
+}
